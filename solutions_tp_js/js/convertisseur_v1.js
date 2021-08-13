@@ -13,6 +13,19 @@ function initialisations(){
     eltTxtDegres = document.getElementById("txtDegres");
     eltSpanMessage = document.getElementById("spanMessage");
     razMessage();
+	
+	var link = document.createElement("a");
+    link.setAttribute("href","http://www.google.fr")
+    /*
+    var noeudTexteDuLien = document.createTextNode("recherche google");
+    link.appendChild(noeudTexteDuLien);
+    */
+   link.innerText = "recherche google";
+
+    /*var tabElementBody = document.getElementsByTagName("body");
+    var eltBody = tabElementBody[0];*/
+    var eltBody = document.querySelector("body");
+    eltBody.appendChild(link);
 }
 
 function razMessage(){
