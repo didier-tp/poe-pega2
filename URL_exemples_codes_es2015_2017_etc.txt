@@ -1,0 +1,3 @@
+https://github.com/didier-mycontrib/tp_es2015_es2017 (nouveautes javascript 2015, 2017)
+https://github.com/didier-mycontrib/angular8plus (basic-app , ng-bs4-app)
+https://github.com/didier-mycontrib/tp_react (my-react-app)
