@@ -9,7 +9,6 @@ $(function(){
 		$.ajax({
 			type: "GET",
 			url: urlGetProducts,
-			contentType : "application/json",
 			success: function (data,status,xhr) {
 				  if (data) {
 				    console.log("data=" + JSON.stringify(data));

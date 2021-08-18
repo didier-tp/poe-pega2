@@ -1,0 +1,82 @@
+Glossaire (dictionnaire des données)
+
+classe (entités)
+Définitions
+caractéristiques retenues
+Personne
+Infos administrative sur Personne humaine
+nom , prenom , adresse , telephone , email
+Abonné
+Personne qui peut emprunter des livres 
+numéro_abonné,
+date_abonnement
+OeuvreLittéraire
+Infos sur oeuvre littéraire publiée
+titre , auteur , éditeur , numISBN ,
+categorie_ou_genre
+Exemplaire
+exemplaire physique d'une oeuvre littéraire
+numero ,
+etat_physique (BON, ABIME, HS) ,
+usage (DISPO , EMPRUNTE) ,
+date_achat
+Bibliothecaire
+
+username , password
+ResponsableAbonnement
+
+username , password
+Contentieux (ou Litige)
+
+lien_avec_abonné_ou..,
+motif ,
+date ?,
+reglé ?
+Emprunt 
+Informations sur emprunt (en cours ou passé) d'exemplaire effectué par un abonné
+numero ,
+lien_avec_abonné ,
+lien_exemplaire,
+date_debut,
+date_fin
+Reservation
+
+
+GenreLittéraire ?
+
+
+EtatEmprunt ?
+
+
+Retour ?
+
+lien_avec_emprunt,
+date_restitution ,
+etat_restitution, 
+....
+
+
+Regroupement en packages :
+
+packages
+classes du package
+dépendances
+personnes ou ...
+Personne ,
+Abonne , 
+Bibliothecaire,
+ReponsableAb
+
+livres ou ...
+OeuvreLittéraire,
+Exemplaire
+
+?????
+Emprunt ,
+....
+---> personnes
+---> livres
+
+
+
+
