@@ -15,7 +15,7 @@ public class App {
         Employe e1 = new Employe();
         e1.setPrenom("jean");
         e1.setNom("Bon");
-        e1.sePresenter();
+        e1.sePresenter(); //on appelle le code hérité ou bien redéfini
         e1.setUsername("jb");
         e1.setPassword("007");
         if(e1.verifPassword("005"))
