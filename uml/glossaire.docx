@@ -7,6 +7,45 @@ Personne
 Infos administrative sur Personne humaine
 nom , prenom , adresse , telephone , email
 Abonné
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Personne qui peut emprunter des livres 
 numéro_abonné,
 date_abonnement
@@ -71,11 +110,37 @@ livres ou ...
 OeuvreLittéraire,
 Exemplaire
 
-?????
+emprunt
 Emprunt ,
-....
+Reservation
+
 ---> personnes
 ---> livres
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
