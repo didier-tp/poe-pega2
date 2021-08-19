@@ -3,6 +3,8 @@ package tp;
 import java.util.ArrayList;
 import java.util.List;
 
+import livres.Exemplaire;
+import livres.OeuvreLitteraire;
 import personnes.Abonné;
 import personnes.Adresse;
 import personnes.Employe;
@@ -11,6 +13,25 @@ import personnes.Personne;
 public class App {
 
 	public static void main(String[] args) {
+		
+		OeuvreLitteraire o1 = new OeuvreLitteraire("1" , "Les Miserables" , "Victor Hugo" , "Editeur 1");
+		
+		Exemplaire ex1_o1 = new Exemplaire();
+		ex1_o1.setNumero(1); ex1_o1.setEtatPhysique("BonEtat");
+		ex1_o1.setOeuvreLit(o1); o1.getExemplaires().add(ex1_o1); //lien bi-directionnel
+		
+		Exemplaire ex2_o1 = new Exemplaire();
+		ex2_o1.setNumero(2); ex2_o1.setEtatPhysique("Abime");
+		ex2_o1.setOeuvreLit(o1);o1.getExemplaires().add(ex2_o1); //lien dans les 2 sens
+		
+		System.out.println("tous les exemplaires de l'oeuvre o1:");
+		for(Exemplaire ex : o1.getExemplaires()) {
+			System.out.println(ex.getNumero() + " " + ex.getEtatPhysique());
+		}
+		
+		System.out.println("Titre de l'exemplaire 1:"+ ex1_o1.getOeuvreLit().getTitre());
+		
+		
 		Personne p1 = new Personne();
 		p1.setPrenom("alex");
         p1.setNom("Therieur");
