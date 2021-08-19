@@ -7,45 +7,6 @@ Personne
 Infos administrative sur Personne humaine
 nom , prenom , adresse , telephone , email
 Abonné
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Personne qui peut emprunter des livres 
 numéro_abonné,
 date_abonnement
@@ -73,11 +34,24 @@ date ?,
 reglé ?
 Emprunt 
 Informations sur emprunt (en cours ou passé) d'exemplaire effectué par un abonné
-numero ,
+umero ,
 lien_avec_abonné ,
 lien_exemplaire,
 date_debut,
 date_fin
+
+
+
+
+
+
+
+
+
+
+
+
+n
 Reservation
 
 
