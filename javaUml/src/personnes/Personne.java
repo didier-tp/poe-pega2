@@ -16,6 +16,8 @@ public class Personne {
     private String prenom;
     private Date dateNaissance;
     private static String planete;
+    
+    private Adresse adressePrincipale;
 
    
     public void sePresenter() {
@@ -60,6 +62,16 @@ public class Personne {
 
 	public static void setPlanete(String planete) {
 		Personne.planete = planete;
+	}
+
+
+	public Adresse getAdressePrincipale() {
+		return adressePrincipale;
+	}
+
+
+	public void setAdressePrincipale(Adresse adressePrincipale) {
+		this.adressePrincipale = adressePrincipale;
 	}
 
 

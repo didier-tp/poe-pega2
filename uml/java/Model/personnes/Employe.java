@@ -23,4 +23,20 @@ public class Employe extends Personne {
      */
     private String password;
 
+    /**
+     * @param pwd 
+     * @return
+     */
+    public Boolean verifPassword(String pwd) {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * 
+     */
+    public void sePresenter() {
+        // TODO implement here
+    }
+
 }

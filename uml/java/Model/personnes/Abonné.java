@@ -18,4 +18,11 @@ public class Abonné extends Personne {
      */
     private Integer numero;
 
+    /**
+     * 
+     */
+    public void sePresenter() {
+        // TODO implement here
+    }
+
 }

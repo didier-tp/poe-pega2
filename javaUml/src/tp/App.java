@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import personnes.Abonné;
+import personnes.Adresse;
 import personnes.Employe;
 import personnes.Personne;
 
@@ -15,6 +16,12 @@ public class App {
         p1.setNom("Therieur");
         System.out.println(p1.getPrenom());
         p1.sePresenter();
+        
+        Adresse adr1 = new Adresse("12 rue elle" , "75001" , "Paris");
+        p1.setAdressePrincipale(adr1);
+        
+        String villeDeP1 = p1.getAdressePrincipale().getVille();
+        System.out.println("p1 habite " + villeDeP1);
         
         Employe e1 = new Employe();
         e1.setPrenom("jean");

@@ -34,6 +34,11 @@ public class Personne {
     private static String planete;
 
     /**
+     * 
+     */
+    public Adresse adressePrincipale;
+
+    /**
      * @return
      */
     public void sePresenter() {
