@@ -565,7 +565,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 473,
+									"left": 476,
 									"top": 434,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -586,8 +586,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 461,
-									"top": 425,
+									"left": 463,
+									"top": 426,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -607,7 +607,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 498,
+									"left": 501,
 									"top": 451,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -626,7 +626,7 @@
 								"$ref": "AAAAAAF7XXpwYSCtclQ="
 							},
 							"lineStyle": 1,
-							"points": "466:479;506:420",
+							"points": "470:479;508:420",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF7XXrnmyDYZiY="
@@ -948,11 +948,30 @@
 									"model": {
 										"$ref": "AAAAAAF7XXpwYCCrbKE="
 									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF7XlSvaCL1jaM=",
+											"_parent": {
+												"$ref": "AAAAAAF7XXpwYSC0KBo="
+											},
+											"model": {
+												"$ref": "AAAAAAF7XlSvUiLyEVw="
+											},
+											"font": "Arial;13;0",
+											"left": 397,
+											"top": 533,
+											"width": 99.3662109375,
+											"height": 13,
+											"text": "+sePresenter()",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 392,
 									"top": 528,
 									"width": 109.3662109375,
-									"height": 10
+									"height": 23
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -993,7 +1012,7 @@
 							"left": 392,
 							"top": 480,
 							"width": 109.3662109375,
-							"height": 58,
+							"height": 71,
 							"nameCompartment": {
 								"$ref": "AAAAAAF7XXpwYSCukh8="
 							},
@@ -2100,6 +2119,16 @@
 									"name": "numero",
 									"visibility": "private",
 									"type": "Integer"
+								}
+							],
+							"operations": [
+								{
+									"_type": "UMLOperation",
+									"_id": "AAAAAAF7XlSvUiLyEVw=",
+									"_parent": {
+										"$ref": "AAAAAAF7XXpwYCCrbKE="
+									},
+									"name": "sePresenter"
 								}
 							]
 						},

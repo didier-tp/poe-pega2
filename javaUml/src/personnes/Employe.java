@@ -15,9 +15,10 @@ public class Employe extends Personne {
     private String username;
     private String password;
     
-    //on reprogramme une operation deja codee dans un classe héritée 
+    //on reprogramme une operation deja codee dans la classe héritée 
     //c'est possible mais pas obligatoire
-    //on dit que l'on redéfini l'opération avec un code différent ou enrichi
+    //on dit que l'on redéfinit l'opération avec un code différent ou enrichi
+    @Override
     public void sePresenter() {
         System.out.print("je suis un employe et ");
         //super est mot clef du langage java (superclasse : classe dont on hérite directement)
