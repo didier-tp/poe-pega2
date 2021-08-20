@@ -27,10 +27,11 @@ public class Texte_a_traduire {
      * 
      */
     public void declencherTraduction() {
-        Traducteur traducteur = null;
+        Traducteur traducteur = null; //référence sur une chose quelconque 
+                                       //qui implémente l'interface Traducteur
         //traducteur=new TraducteurFrancais();
         traducteur=new TraducteurEspagnol();
-        this.texteTraduit = traducteur.traduire(this.texteEnAnglais);
+        this.texteTraduit = traducteur.traduireEnMaj(this.texteEnAnglais);
         System.out.println("texteTraduit="+this.texteTraduit);
     }
 
