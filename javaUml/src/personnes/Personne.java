@@ -3,7 +3,7 @@ package personnes;
 import java.util.*;
 
 
-public class Personne {
+public class  Personne {
 
     /**
      * Default constructor

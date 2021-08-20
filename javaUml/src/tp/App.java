@@ -78,6 +78,9 @@ public class App {
         	                      //(polymorphisme)
         }
         
+        Texte_a_traduire texte_a_traduire = new Texte_a_traduire();
+        texte_a_traduire.declencherTraduction();
+        
 	}
 
 }
